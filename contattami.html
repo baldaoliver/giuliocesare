@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>G. G. Cesare - Contattami</title>
+</head>
+<body>
+	<h1>Contattami</h1>
+	<hr>
+	<p>Telefono: 1123581321</p>
+	<p>email: ggcesare@marenostrum.spqr</p>
+	<p>Prima di contattarmi, rispondi alle seguenti domande:</p>
+	<form action="mailto:ggcesare@marenostrum.spqr" method="post" enctype="text/plain">
+		<p>Ti piace la storia di Roma antica?</p>
+
+		<p>Chi preferisci tra i seguenti generali?</p>
+		<input list="generali" name="generalePreferito">
+		<datalist id="generali">
+			<option value="Cesare">
+			<option value="Pompeo">
+			<option value="Crasso">
+		</datalist>
+		<p>Chi vorresti che diventasse imperatore di Roma?</p>
+		<input list="imperatori" name="imperatorePreferito">
+		<datalist id="imperatori">
+			<option value="Ottaviano">
+			<option value="Marco Antonio">
+			<option value="Lepido">
+		</datalist>
+		<hr>
+		<label>Nome:</label>
+		<input type="text" name="yourName">
+		<br>
+		<label>email:</label>
+		<input type="email" name="yourEmail">
+		<br>
+		<label>Il tuo messaggio:</label>
+		<br>
+		<textarea name="yourMessage" rows="10" cols="30"></textarea>
+		<input type="submit" name="">
+	</form>
+</body>
+</html>
